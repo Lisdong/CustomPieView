@@ -5,6 +5,13 @@
 
 
 # 使用方式
+```
+<com.lis.view.PieView
+        android:id="@+id/pieView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        tools:ignore="MissingConstraints" />
+```
  ```
  List<PieItemBean> pieEntries = new ArrayList<>();
 		pieEntries.add(new PieItemBean("Froyo",12f, Color.rgb(59 ,113 ,175)));
